@@ -857,7 +857,7 @@ end
 
 --=== AUTOFARM CONFIG ===--
 local Farm_TeleportsPerServerHop = 7
-local Farm_TeleportDelay = 90
+local Farm_TeleportDelay = 120
 local Farm_JoinWait = 60
 local Farm_TargetPosition = Vector3.new(-1, 517, 480)
 
@@ -1099,3 +1099,4 @@ MOP2.MouseButton1Click:Connect(function()
         end
     end)
 end) 
+
